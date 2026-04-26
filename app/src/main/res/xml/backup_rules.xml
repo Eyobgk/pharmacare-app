@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Full-backup rules for pre-API-31 devices.
+    Excludes Room database WAL files from backups.
+-->
+<full-backup-content>
+    <exclude domain="database" path="pharmacare_database"/>
+    <exclude domain="database" path="pharmacare_database-shm"/>
+    <exclude domain="database" path="pharmacare_database-wal"/>
+</full-backup-content>
