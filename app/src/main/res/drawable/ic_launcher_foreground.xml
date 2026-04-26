@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive launcher icon — foreground layer (medicine cross symbol) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer circle background -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+
+    <!-- White cross (plus symbol) for pharmacy -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,26 L64,26 L64,44 L82,44 L82,64 L64,64 L64,82 L44,82 L44,64 L26,64 L26,44 L44,44 Z" />
+</vector>
