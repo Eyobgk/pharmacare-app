@@ -1,0 +1,14 @@
+# Force LF line endings for shell scripts so they work on Linux (GitHub Actions)
+gradlew        text eol=lf
+*.sh           text eol=lf
+
+# Force CRLF for Windows batch files
+gradlew.bat    text eol=crlf
+*.bat          text eol=crlf
+
+# Binary files - no conversion
+*.jar          binary
+*.png          binary
+*.jpg          binary
+*.keystore     binary
+*.apk          binary
